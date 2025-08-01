@@ -7,7 +7,8 @@ while True:
     if not ret:
         print("FAILED TO GRAB FRAME")
         break
-    cv2.imshow("press 's' to Save", frame)
+
+    cv2.imshow("Live Feed - Press 's' to Save | 'q' to Quit", frame)
 
     key = cv2.waitKey(1) & 0xFF
     if key == ord('s'):
@@ -21,3 +22,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
