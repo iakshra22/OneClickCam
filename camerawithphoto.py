@@ -7,7 +7,7 @@ cap = cv2.VideoCapture(0)
 while True:
     success, frame = cap.read()
     if not success:
-        print("Unable to grab video frame.")
+        print("Unable to grab video frame. Please try again")
         break
 
     cv2.imshow("Live Feed - Press 's' to Save | 'q' to Quit", frame)
