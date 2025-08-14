@@ -7,7 +7,7 @@ A simple Python-based webcam application that lets you **capture a photo with ju
 ## ✨ Features
 
 - Live webcam feed using OpenCV  
-- Press `s` to instantly capture and save a photo  
+- Press `s` to instantly capture and save a photo   
 - Press `q` to quit the app without saving  
 - Captured images are saved with a timestamped filename automatically  
 - Easy to use – no GUI setup needed
