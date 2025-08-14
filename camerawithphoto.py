@@ -9,7 +9,7 @@ while True:
     if not success:
         print("Unable to grab video frame. Please try again")
         break
-
+ 
     cv2.imshow("Live Feed - Press 's' to Save | 'q' to Quit", frame)
 
     key_pressed = cv2.waitKey(1) & 0xFF
