@@ -11,7 +11,7 @@ A simple Python-based webcam application that lets you **capture a photo with ju
 - Press `q` to quit the app without saving  
 - Captured images are saved with a timestamped filename automatically  
 - Easy to use – no GUI setup needed
-
+ 
 ---
 
 ## 🛠️ Technologies Used
